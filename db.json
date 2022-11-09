@@ -1,0 +1,18 @@
+{
+    "therapies": [
+        {
+            "title": "Therapy",
+            "desc": "Experts who help solve emotional problems ₹699",
+            "duration": "50 Mins Session",
+            "price": "699.00",
+            "image": "https://cdn-images.cure.fit/www-curefit-com/image/…image/vm/9355d11a-f088-4f10-b9df-72ea3ecf8e0b.png"
+        },
+        {
+            "title": "Therapy",
+            "desc": "Experts who help solve emotional problems ₹699",
+            "duration": "50 Mins Session",
+            "price": "699.00",
+            "image": "https://cdn-images.cure.fit/www-curefit-com/image/…image/vm/9355d11a-f088-4f10-b9df-72ea3ecf8e0b.png"
+        }
+    ]
+}
