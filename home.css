@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+video{
+    width: 100%;
+    
+    border: 0px solid red;
+    
+}
+#overide{
+    
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 20px;
+        width: 40%;
+        text-align: center;
+      
+}
+#overide button{
+    padding: 10px;
+    border-radius: 7px;
+    color: red;
+    border: none;
+    margin-bottom: 20px;
+}
+#overide img{
+    border: 0px solid red;
+}
+#mid{
+    background-color: #171a26;
+    margin-top: -10px;
+    border: 1px solid white;
+}
+#pass{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    color: #7d7f85;
+    margin-top: 0px;
+    border: 0px solid white;
+    margin-top: 50px;
+   
+}
+#pass div{
+    border: 0px solid white;
+    padding: 0px 35px 0px 35px;
+    border-radius: 10px;
+    background-color: #232631;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#pass div:hover{
+    
+    /* background-color: #5b6066; */
+    opacity: 0.5;
+    /* color: #171a26; */
+}
