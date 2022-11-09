@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    width: 100%;
+    border: 1px solid red;
+    height: 60px;
+    margin: 0;
+    display: flex;
+    z-index: 10;
+}
+
+#logo-div{
+    width: 20%;
+}
+
+#menu-div{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: gray;
+    display: flex;
+    gap: 60px;
+    margin-left: 110px;
+    align-items: center ;
+}
+
+#login-div{
+    width: 30%;
+}
+
+#test-div{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(229, 160, 160);
+    margin-top: -60px;
+}
