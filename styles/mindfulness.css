@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navigator{
+    background-color: rgb(57,58,59);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+#navigator button{
+    padding: 10px 20px;
+    background-color: rgb(57,58,59);
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#navigator>a>.lander{
+    background-color: rgb(29,29,33);
+}
