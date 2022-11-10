@@ -1,18 +1,20 @@
 body{
     margin: 0;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 
 #navbar{
     width: 100%;
-    border: 1px solid red;
     height: 60px;
     margin: 0;
     display: flex;
+    position: fixed;
     z-index: 10;
 }
 
 #logo-div{
     width: 20%;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 #logo-div>img{
     width: 100%;
@@ -22,7 +24,7 @@ body{
 #menu-div{
     width: 50%;
     font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    color: gray;
+    color: rgb(245, 245, 245);
     display: flex;
     gap: 60px;
     margin-left: 110px;
@@ -37,10 +39,134 @@ body{
 }
 
 #login-div{
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     width: 30%;
     display: flex;
+    gap:27px;
+    align-items: center;
+    color: white;
 }
 
 .location-cls{
     display: flex;
+    gap:10px;
+    font-size: 14px;
+    color: white;
+    font-family: Inter-Regular,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.location-cls:hover{
+    background-color: rgb(161, 158, 158);
+    border-radius: 5px;
+}
+
+.btn-cls{
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid white;
+}
+#location-menu{
+    position: absolute;
+    right: 0;
+    width: 280px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: 212px;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: black;
+    color: gray;
+    overflow-y: scroll;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 30px;
+    z-index: 9;
+}
+
+.input-search{
+    display: flex;
+    
+}
+
+.input-search>input{
+    color: white;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: -25px;
+    padding-left: 35px;
+    border: 1px white solid;
+    background-color: black;
+}
+
+.input-search>i{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+}
+
+.popular-head {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#city-list {
+    margin-top: 25px;
+}
+
+#city-list>div {
+    display: flex;
+    color: gray;
+    align-items: center;
+    height: 50px;
+}
+
+#city-list>div>img {
+    height: 30px;
+    width: 30px;
+}
+
+#city-list>div>h4 {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#city-list>div>h4 {
+    display: flex;
+    color: gray;
+    align-items: center;
+    height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: black; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 5px;
+    height: 50px;
+}
+
+#other-list{
+    margin-top: 35px;
+}
+#other-list>div>h4{
+    cursor: pointer;
 }
