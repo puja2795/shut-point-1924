@@ -2,17 +2,11 @@
     background-color:rgb(41, 39, 39);
     color:white;
     align-items: center;
-    font-size: 45px;
-    
+    font-size: 45px; 
+   
+     justify-content: center;
 }
-button{
-    margin-left:650px;
-    font-size: 40px;
-    color:white;
-    background-color: black;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+
 #crousel>img{
     height:400px;
     width:1400px;
@@ -20,5 +14,22 @@ button{
 #crown>img{
     height:200px;
     width:1400px;
+
+}
+#container>div>img{
+    width:50%;
+}
+#crown{
+    width: 80%;
+    height:auto;
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:5px;
+    margin-left: 30px;
+    margin-right:30px;
 
 }
