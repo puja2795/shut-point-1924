@@ -41,6 +41,7 @@ const append_therapy=(data)=>{
     let experts_div=document.getElementById("expert_div")
     data.forEach((el) => {
         let div=document.createElement("div")
+        div.className="cards"
         let detail_div=document.createElement("div")
         detail_div.className="detail"
 
