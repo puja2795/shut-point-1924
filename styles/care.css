@@ -6,6 +6,14 @@
    
      justify-content: center;
 }
+#busy>button{
+    margin-left:650px;
+    font-size: 40px;
+    color:white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
 
 #crousel>img{
     height:400px;
