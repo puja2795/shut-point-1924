@@ -38,7 +38,7 @@ get_data() // function invoke when page load
 
 
 const append_therapy=(data)=>{
-    let experts_div=document.getElementById("expert_div")
+    let experts_div=document.getElementById("container")
     data.forEach((el) => {
         let div=document.createElement("div")
         div.className="cards"
