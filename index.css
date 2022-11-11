@@ -109,3 +109,58 @@ video{
 h1{
     text-align: center;
 }
+#triner img:hover{
+    opacity: 1;
+}
+#passs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+#passs button{
+    margin-top: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+}
+#passs button:hover{
+    background-image: linear-gradient(to right, #ff0be0,#2d00ff);
+    color: white;
+
+}
+ p{
+    text-align: center;
+}
+#passs h2,h3,button{
+    margin-left: 20px;
+}
+#color{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,400px);
+    gap: 40px 20px;
+    width: 80%;
+   margin: auto;
+   margin-top: 50px;
+}
+#color div{
+    border: 0px solid white;
+    border-radius: 10px;
+   /* //background-image: linear-gradient(to right,red,yellow); */
+}
+#color img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#color img:hover{
+     opacity: 1;
+}
+
+
+
