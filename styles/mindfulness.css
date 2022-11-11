@@ -33,10 +33,14 @@ body{
 #navigator>a>.lander{
     background-color: rgb(29,29,33);
 }
+#library_main{
+    background-color: rgb(243,243,250);
+    padding-top: 50px;
+}
 #library{
     width: 70%;
     margin: auto;
-    margin-top: 120px;
+    /* margin-top: 50px; */
 }
 #library h1{
     font-weight: lighter;
@@ -54,7 +58,7 @@ body{
 }
 .card{
     display: flex;
-    padding: 20px;
+    padding: 5px 10px;
     gap: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -88,4 +92,8 @@ body{
 .card h4{
     font-weight: lighter;
     font-size: 14px;
+}
+#quick_link{
+    width: 75%;
+    margin: auto;
 }

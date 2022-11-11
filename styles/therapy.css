@@ -37,7 +37,7 @@ body{
 }
 #slider{
     width: 75%;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     margin: auto;
 }
 #slider img{
