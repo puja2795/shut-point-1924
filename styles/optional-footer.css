@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+#main-container{
+    padding: 50px 0 35px 0;
+    background-color: #111213;
+    width: 100%;
+    height:auto;
+    font-size: 13px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: rgb(202, 202, 202);
+}
+#all-p-container{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.child-cls{
+    width: 15%;
+}
+
+.rel-search{
+    margin-top: 0px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.child-cls>p{
+    cursor: pointer;
+    margin: 0;
+    margin-bottom: 5px;
+}
