@@ -96,6 +96,7 @@ let obj=[{id:1,
 },
 
 ]
+let cartArr = JSON.parse(localStorage.getItem('cart')) || []
 obj.forEach(function(el){
     let card=document.createElement("div");
     let productImg=document.createElement("img");
@@ -109,6 +110,7 @@ obj.forEach(function(el){
     document.querySelector("#container").append(card);
 
     function addtocart(){
-        console.log("inside card button")
+        cartArr.push(el)
+        localStorage.setItem('cart', JSON.stringify(cartArr))
     }
 })
