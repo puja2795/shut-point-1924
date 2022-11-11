@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigator{ 
+    background-color: rgb(57,58,59);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+#navigator button{
+    padding: 10px 20px;
+    background-color: rgb(57,58,59);
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#navigator>a>.lander{
+    background-color: rgb(29,29,33);
+}
+#slider{
+    width: 75%;
+    padding-top: 60px;
+    margin: auto;
+}
+#slider img{
+    width: 100%;
+}
+#slider div{
+    width: 80px;
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+#slider>div>button{
+background-color: red;
+border: 0px;
+width: 25px;
+height: 2px;
+}
+#slider>div>button:hover{
+    height: 5px;
+    width: 30px;
+}
+#know_more{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+#know_more>img{
+    width: 100%;
+}
+#experts{
+    width: 70%;
+    margin: auto;
+}
+#experts >h1{
+    font-size: 25px;
+}
+
+#expert_div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: -10px;
+    column-gap: 20px;
+}
+
+#expert_div img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: -140px;
+
+}
+#expert_div .detail{
+    position: relative;
+    bottom: 50px;
+    right: -10px;
+}
+
+.detail{
+    width: 65%;
+}
+.detail p{
+    font-size: 12px;
+}
