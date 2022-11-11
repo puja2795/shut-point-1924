@@ -11,6 +11,13 @@
 //     slider_img.src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/23877b2f-09d0-4d57-b5c3-dc1f9046ee28.png"
 // }
 
+import { navbar , locateDiv, navbarFunc } from "/component/navbar.js"
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("location-menu").innerHTML = locateDiv();
+navbarFunc();
+
+
+
 
 // silder on interval based
 const slider=()=>{
@@ -32,13 +39,14 @@ slider() // function invoke when page load
 const get_data= async()=>{
     let res= await fetch("http://localhost:3000/therapies")
     let data= await res.json()
+    console.log(data)
     append_therapy(data)
 }
 get_data() // function invoke when page load
 
 
 const append_therapy=(data)=>{
-    let experts_div=document.getElementById("container")
+    let experts_div=document.getElementById("expert_div")
     data.forEach((el) => {
         let div=document.createElement("div")
         div.className="cards"
