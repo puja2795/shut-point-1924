@@ -1,3 +1,7 @@
+*{
+    font: 18px sans-serif;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -17,7 +21,7 @@ body{
     background-color: rgb(57,58,59);
     border: 0px;
     color: white;
-    font-size: 18px;
+   font-size: 18px;
     border-radius: 5px;
 }
 #navigator>a>.lander{
@@ -60,34 +64,73 @@ height: 2px;
 #experts{
     width: 70%;
     margin: auto;
+    border-radius: 10px;
 }
 #experts >h1{
     font-size: 25px;
+    font-weight: bold;
 }
 
 #expert_div{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    row-gap: -10px;
+    row-gap: 20px;
     column-gap: 20px;
+    border-radius: 10px;
 }
 
 #expert_div img{
+    height: 100%;
     width: 100%;
     border-radius: 10px;
     margin-bottom: -140px;
 
 }
-#expert_div .detail{
-    position: relative;
-    bottom: 50px;
-    right: -10px;
-}
+
 
 .detail{
     width: 65%;
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+    right: -10px;
 }
 .detail p{
-    font-size: 12px;
+    font-size: 14px;
+    color: rgb(37, 37, 37);
+}
+
+.detail h3{
+    font-weight: bold;
+}
+#assure{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+}
+#assure img{
+    width: 100%;
+}
+.cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#FAQS{
+    background-color: rgb(23,26,38);
+    padding: 20px;
+    font: small-caps bold 24px sans-serif;
+}
+#header span{
+    font-size: 16px;
+    color:  rgb(129, 129, 129);
+}
+#header{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#header>h1{
+font-size: 36px;
 }
