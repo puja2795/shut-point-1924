@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+#footer-div{
+    width:100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 0px;
+    
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding-top: 50px;
+    color: rgb(202, 202, 202);
+    font-size: 13px;
+    font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+
+#main-container>div:nth-child(1){
+    height: 100%;
+    width: 30%;
+}
+
+#main-container>div:nth-child(1)>img{
+    width: 50%;
+}
+
+.paragraph-cls>p{
+    padding-bottom: 15px;
+}
+
+.paragraph-cls-2>p{
+    padding-bottom: 32px;
+}
+#main-container>div:nth-child(2){
+    height: 100%;
+    width: 15%;
+}
+
+#main-container>div:nth-child(3){
+    height: 100%;
+    width: 10%;
+}
+
+#main-container>div:nth-child(4){
+    height: 100%;
+    width: 15%;
+}
+
+#main-container>div:nth-child(5){
+    height: 100%;
+    width: 25%;
+}
+
+.get-app{
+    padding-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+#social-links{
+    text-align: center;
+    cursor: pointer;
+    padding-top: 20px;
+}
+#social-links>i{
+    margin-left: 10px;
+}
+
