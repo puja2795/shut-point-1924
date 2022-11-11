@@ -2,6 +2,11 @@
     height: 50px;
     width: 100%;
 }
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 html, body {
     font-family: 'BrandonTextWeb-Regular';
 }
@@ -69,4 +74,64 @@ body {
     opacity: 0.7;
     background-color: transparent;
     text-decoration: none;
+}
+.tryit-free{
+    position: absolute;
+    left: 700px;
+    right: 0px;
+    bottom: 390px;
+    min-height: 40px;
+    opacity: 1;
+    pointer-events: initial;
+    transition: all 750ms ease 0s;
+    max-width: fit-content;
+}
+.primary{
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    transition: all 250ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 11.5px 20px;
+    font-weight: 700;
+    overflow: visible;
+    color: rgb(240, 96, 85);
+}
+.elite-pro-live {
+    margin-left: 270px;
+    margin-right: auto;
+    width: 1050px;
+    height: 200px;
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all 750ms ease 0s;
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.cult-pass-epl {
+    padding: 15px 0px 45px 0px;
+    background: rgb(255 255 255 / 5%);
+    border: 1px solid rgb(255 255 255 / 20%);
+    flex-basis: 30%;
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    transition: all 300ms ease;
+    cursor: pointer;
+    margin-right: 3.5%;
+    text-align: center;
+    color: #fff;
 }
