@@ -13,3 +13,25 @@
     margin-top: 10px;
     margin-bottom: 20px;
 } 
+#carts>img{
+    width:50%;
+    height:20%;
+    text-align: center;
+
+}
+#carts{
+    justify-content: center;
+    margin: 3%;
+}
+#carts>button{
+    width:20%;
+    height:37px;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+#carts>button:hover{
+    background-color: red;
+    color: black;
+    cursor:pointer;
+}

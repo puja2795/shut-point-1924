@@ -1,31 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font:18px sans-serif;
+}
 #busy{
-    background-color:rgb(41, 39, 39);
+    /* background-color:rgb(41, 39, 39);
     color:white;
     align-items: center;
     font-size: 45px; 
    
-     justify-content: center;
+     justify-content: center; */
+      background-color: rgb(57,58,59);
+    
+    width: 100%;
+
+    justify-content: center;
+    gap: 30px;
+    padding: 10px; 
+
 }
 #busy>button{
-    margin-left:650px;
+    /* margin-left:650px;
     font-size: 40px;
     color:white;
     background-color: black;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
+    padding: 10px 20px;
+    background-color: rgb(57,58,59);
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px; 
+   
 } 
 
 #crousel>img{
     height:400px;
-    width:1400px;
+    width:1100px;
+    margin-left: 16%;
+    
 }
 #crown>img{
     height:200px;
-    width:1400px;
+    width:1100px;
+    margin-left: 20%;
 
 }
 #container>div>img{
-    width:50%;
+    width:80%;
+    cursor: pointer;
+
 }
 #crown{
     width: 80%;
@@ -37,11 +62,19 @@
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     gap:1px;
-    margin-left: 80px;
+    margin-left: 18%;
     margin-right:60px;
+    cursor: pointer;
 
 }
 #allround{
+    margin-left:18%;
+}
+#allround>a{
     text-decoration: none;
     color: black;
+    
+} 
+.lab{
+    margin-left: 18%;
 }
