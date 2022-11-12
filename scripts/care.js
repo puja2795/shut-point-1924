@@ -103,6 +103,9 @@ const care_data= async()=>{
 }
 care_data()
 //let cartArr = JSON.parse(localStorage.getItem('cart')) || []
+
+let main_container = document.getElementById("container");
+
 const append_data=(cate)=>{
 
 cate.forEach((el)=>{
@@ -112,19 +115,13 @@ cate.forEach((el)=>{
    productImg.addEventListener("click", function(){
     addfun(el)
    })
-
+   
     let price=document.createElement("p");
     price.innerText=el.price;
 
-   
-
-
     card.append(productImg,price);
-    document.querySelector("#container").append(card);
+    main_container.append(card);
 
-    
-
-    
 })
 }
 function addfun(el){
