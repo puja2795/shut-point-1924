@@ -1,3 +1,11 @@
+import {navbar, locateDiv, navbarFunc} from "../component/navbar.js";
+
+let navbarDiv = document.getElementById("navbar");
+navbarDiv.innerHTML = navbar();
+navbarDiv.style.backgroundColor = 'black';
+document.getElementById("location-menu").innerHTML = locateDiv();
+navbarFunc();
+
 // silder on button click based
 // let pic1_btn=document.getElementById("A")
 // pic1_btn.onclick=()=>{
@@ -11,10 +19,6 @@
 //     slider_img.src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/23877b2f-09d0-4d57-b5c3-dc1f9046ee28.png"
 // }
 
-import { navbar , locateDiv, navbarFunc } from "/component/navbar.js"
-document.getElementById("navbar").innerHTML = navbar();
-document.getElementById("location-menu").innerHTML = locateDiv();
-navbarFunc();
 
 
 

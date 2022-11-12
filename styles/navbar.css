@@ -9,7 +9,7 @@ body{
     margin: 0;
     display: flex;
     z-index: 10;
-    /* background-color: black; */
+    position: fixed;
 }
 
 #logo-div{
@@ -83,7 +83,7 @@ body{
     height: 400px;
     margin-left: auto;
     margin-right: 212px;
-    /* margin-top: 60px; */
+    margin-top: 60px;
     padding: 20px;
     background-color: black;
     color: gray;

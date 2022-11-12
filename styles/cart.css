@@ -1,0 +1,15 @@
+#busy{
+    background-color:rgb(41, 39, 39);
+    color:white;
+    align-items: center;
+    font-size: 45px; 
+}
+
+#busy>button{
+    margin-left:650px;
+    font-size: 40px;
+    color:white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 

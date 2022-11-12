@@ -65,6 +65,22 @@ const navbarFunc = function() {
             locationDiv.style.display = "block";
         }
     })
+
+    document.getElementById("fitness-page").onclick = function(){
+        window.location.href = "./fitness.html";
+    }
+
+    document.getElementById("care-page").onclick = function(){
+        window.location.href = "./care.html";
+    }
+
+    document.getElementById("mind-page").onclick = function(){
+        window.location.href = "./therapy.html";
+    }
+
+    document.getElementById("store-page").onclick = function(){
+        window.location.href = "./index.html";
+    }
 }
 
 
@@ -74,10 +90,10 @@ const navbar = function() {
         <img src="./media/logo.png" alt="logo">
     </div>
     <div id="menu-div">
-        <div><h5 class="h5-cls">FITNESS</h5></div>
-        <div><h5 class="h5-cls">CARE</h5></div>
-        <div><h5 class="h5-cls">MIND</h5></div>
-        <div><h5 class="h5-cls">STORE</h5></div>
+        <div id="fitness-page"><h5 class="h5-cls">FITNESS</h5></div>
+        <div id="care-page"><h5 class="h5-cls">CARE</h5></div>
+        <div id="mind-page"><h5 class="h5-cls">MIND</h5></div>
+        <div id="store-page"><h5 class="h5-cls">STORE</h5></div>
     </div>
     <div id="login-div">
         <div class="location-cls">
@@ -143,13 +159,13 @@ let cartItemFunc = function() {
     }
 }
 
-cartItemFunc();
+// cartItemFunc();
 
-let nav = document.getElementById("navbar");
-nav.innerHTML = navbar();
-nav.style.backgroundColor = 'black';
-let locMenu = document.getElementById("location-menu");
-locMenu.innerHTML = locateDiv();
-navbarFunc();
+// let nav = document.getElementById("navbar");
+// // nav.innerHTML = navbar();
+// nav.style.backgroundColor = 'black';
+// let locMenu = document.getElementById("location-menu");
+// locMenu.innerHTML = locateDiv();
+// navbarFunc();
 
 export {navbar, locateDiv, navbarFunc};
