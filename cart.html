@@ -5,57 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/cart.css">
 </head>
-<style>
-    #busy{
-    background-color:rgb(41, 39, 39);
-    color:white;
-    align-items: center;
-    font-size: 45px; }
-
-    #busy>button{
-    margin-left:650px;
-    font-size: 40px;
-    color:white;
-    background-color: black;
-    margin-top: 10px;
-    margin-bottom: 20px;
-} 
-</style>
 <body>
     <div id="busy">
         <button >Lab tests</button>
     </div>
     
-<div id="carts">
-
-</div>
+    <div id="carts"></div>
 </body>
+<script src="./scripts/cart.js"></script>
 </html>
-<script>
-let selectedtest=JSON.parse(localStorage.getItem("selected_item"))
-
-
-
-let carts=document.getElementById("carts");
-   
-    let largeImg=document.createElement("img");
-    largeImg.src=selectedtest.largeimg_url;
-  
-    let title = document.createElement("h2");
-    title.innerText = selectedtest.title;
-
-    let des=document.createElement("p");
-    des.innerText=selectedtest.description;
-
-    let price=document.createElement("p")
-    price.innerText=selectedtest.price;
-   
-    let addToCart = document.createElement("button");
-    addToCart.innerText = "ADD";
-
-
-    carts.append(largeImg,title,des,price,addToCart);
-    
-
-</script>
