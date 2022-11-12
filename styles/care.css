@@ -36,8 +36,12 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
-    gap:5px;
-    margin-left: 30px;
-    margin-right:30px;
+    gap:2px;
+    margin-left: 80px;
+    margin-right:60px;
 
+}
+#allround{
+    text-decoration: none;
+    color: black;
 }
