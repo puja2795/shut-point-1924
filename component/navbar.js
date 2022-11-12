@@ -1,4 +1,9 @@
 const navbarFunc = function() {
+    document.getElementById("cart").style.display = "none";
+    document.querySelector("#cart-icon").addEventListener("click", () => {
+        document.getElementById("cart").style.display = "block";
+    })
+
     let popular_cities = [
         {
             city: "Bangalore",
@@ -86,7 +91,7 @@ const navbarFunc = function() {
 
 const navbar = function() {
     return `
-    <div id="logo-div">
+    <div id="logo-div" onclick="window.location='./index.html'">
         <img src="./media/logo.png" alt="logo">
     </div>
     <div id="menu-div">
@@ -103,8 +108,8 @@ const navbar = function() {
             </div>
         </div>
         <div><button class="btn-cls">GET APP</button></div>
-        <div><i class="fa-regular fa-user fa-lg"></i></div>
-        <div><i class="fa-solid fa-cart-shopping fa-lg"></i></div>
+        <div><i class="fa-regular fa-user fa-lg" style="cursor: pointer;"></i></div>
+        <div id="cart-icon" style="cursor: pointer;"><i class="fa-solid fa-cart-shopping fa-lg"></i><b class="test-count cart-count"></b></div>
     </div>`
 }
 
@@ -122,33 +127,61 @@ const locateDiv = function() {
     </div>`
 }
 
-let cartItems = [
-    {
-        name: "Therapist-1",
-        desc: "Some test Description for testing porpose",
-        img: "https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_220,q_auto:eco,dpr_1,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
-    },
-    {
-        name: "Therapist-2",
-        desc: "Some test Description for testing porpose",
-        img: "https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_220,q_auto:eco,dpr_1,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
-    }
-]
+const cartDiv = function() {
+    return `
+    <div class="cart-header">
+        <b>Your Cart</b>
+        <button id="pay-now"> Pay Now </button>
+        <b class="close-cart" style="cursor: pointer;">X</b>
+    </div>
+    <div class="cart-sub-header">
+        <b>Lab Tests</b>
+        <div class="test-count"></div>
+    </div>
+    <div class="cart-body">
+        
+    </div>
+    <div class="cart-btn"><a href="./care.html"><b>BOOK TESTS ON CARE.FIT</b></a></div>`
+}
 
-let cartBody = document.getElementsByClassName("cart-body")[0];
-let cartItemFunc = function() {
-    // cartItems = [];
+const showCartItems = function() {
+    document.querySelector(".close-cart").addEventListener("click", () => {
+        document.getElementById("cart").style.display = "none";
+    })
+    let cartBody = document.getElementsByClassName("cart-body")[0];
+    cartBody.innerHTML = null;
+    let cartItems = JSON.parse(localStorage.getItem("cart-item")) || [];
     if(cartItems.length>0){
-        cartItems.forEach(el => {
+        document.querySelector(".cart-sub-header>.test-count").innerText = cartItems.length;
+        document.querySelector(".cart-count").innerText = cartItems.length;
+        cartItems.forEach((el, index) => {
             let itemDiv = document.createElement("div");
             itemDiv.classList.add("cart-item");
             let imgEl = document.createElement("img");
-            imgEl.src = el.img;
+            imgEl.src = el.image_url;
+            let itemDiv2 = document.createElement("div");
+            itemDiv2.classList.add("item-div");
             let nameEl = document.createElement("h4");
-            nameEl.innerText = el.name;
-            itemDiv.append(imgEl, nameEl);
+            nameEl.innerText = el.title;
+            let priceRemoveDiv = document.createElement("div");
+            priceRemoveDiv.classList.add("price-remove");
+            let priceEl = document.createElement("p");
+            priceEl.innerText = el.price;
+            let removeBtn = document.createElement("button");
+            removeBtn.innerText = "Remove";
+            removeBtn.addEventListener("click", () => {
+                cartItems.splice(index, 1);
+                localStorage.setItem("cart-item", JSON.stringify(cartItems));
+                showCartItems();
+            })
+            priceRemoveDiv.append(priceEl, removeBtn);
+            itemDiv2.append(nameEl, priceRemoveDiv)
+            itemDiv.append(imgEl, itemDiv2);
+            
             cartBody.append(itemDiv);
         })
+        let payBtn = document.getElementById("pay-now");
+        payBtn.style.display = "block";
     }
     else{
         cartBody.innerHTML = `
@@ -156,16 +189,9 @@ let cartItemFunc = function() {
         <h4>Your cart is empty</h4>
         <h6>Looks like you haven't made any purchases yet</h6>
         `
+        let payBtn = document.getElementById("pay-now");
+        payBtn.style.display = "none";
     }
 }
 
-// cartItemFunc();
-
-// let nav = document.getElementById("navbar");
-// // nav.innerHTML = navbar();
-// nav.style.backgroundColor = 'black';
-// let locMenu = document.getElementById("location-menu");
-// locMenu.innerHTML = locateDiv();
-// navbarFunc();
-
-export {navbar, locateDiv, navbarFunc};
+export {navbar, locateDiv, navbarFunc, cartDiv, showCartItems};

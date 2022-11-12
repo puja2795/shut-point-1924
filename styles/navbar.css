@@ -17,8 +17,8 @@ body{
     font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 #logo-div>img{
-    width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 #menu-div{
@@ -77,7 +77,7 @@ body{
     border: 1px solid white;
 }
 #location-menu{
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 280px;
     height: 400px;
@@ -94,13 +94,13 @@ body{
 }
 
 #cart{
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 280px;
     height: 500px;
     margin-left: auto;
     margin-right: 0px;
-    /* margin-top: 60px; */
+    margin-top: 60px;
     padding: 20px;
     background-color: black;
     color: gray;
@@ -124,12 +124,29 @@ body{
     font-size: 13px;
     color: white;
     border-bottom: 1px solid rgb(221, 220, 220);
+    display: flex;
+    gap: 10px;
+}
+
+.test-count{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(240, 62, 62);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.cart-count {
+    margin-left: -10px;
+    width: 20px;
 }
 
 .cart-body {
     height: 370px;
     text-align: center;
     color: rgb(235, 232, 232);
+    overflow-y: scroll;
 }
 
 .cart-body>img {
@@ -146,10 +163,45 @@ body{
 .cart-item{
     display: flex;
     margin: 10px auto;
+    gap: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .cart-item>img{
-    width: 50px;
+    height: 53px;
+}
+
+.item-div{
+    width: 80%;
+}
+
+.item-div>h4{
+    margin-top: 0;
+    font-size: 13px;
+    text-align: left;
+}
+
+.price-remove>p{
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 11px;
+}
+
+.price-remove {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-remove>button{
+    height: 20px;
+    font-size: 10px;
+    background-color: rgb(240, 61, 61);
+    border-radius: 5px;
+    color: white;
 }
 
 .cart-btn {
@@ -162,6 +214,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 .cart-btn>b{
