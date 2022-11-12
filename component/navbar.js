@@ -105,4 +105,51 @@ const locateDiv = function() {
         <u><b class="popular-head">Others</b></u>
     </div>`
 }
+
+let cartItems = [
+    {
+        name: "Therapist-1",
+        desc: "Some test Description for testing porpose",
+        img: "https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_220,q_auto:eco,dpr_1,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
+    },
+    {
+        name: "Therapist-2",
+        desc: "Some test Description for testing porpose",
+        img: "https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_220,q_auto:eco,dpr_1,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg"
+    }
+]
+
+let cartBody = document.getElementsByClassName("cart-body")[0];
+let cartItemFunc = function() {
+    // cartItems = [];
+    if(cartItems.length>0){
+        cartItems.forEach(el => {
+            let itemDiv = document.createElement("div");
+            itemDiv.classList.add("cart-item");
+            let imgEl = document.createElement("img");
+            imgEl.src = el.img;
+            let nameEl = document.createElement("h4");
+            nameEl.innerText = el.name;
+            itemDiv.append(imgEl, nameEl);
+            cartBody.append(itemDiv);
+        })
+    }
+    else{
+        cartBody.innerHTML = `
+        <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_220,q_auto:eco,dpr_1,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg" alt="">
+        <h4>Your cart is empty</h4>
+        <h6>Looks like you haven't made any purchases yet</h6>
+        `
+    }
+}
+
+cartItemFunc();
+
+let nav = document.getElementById("navbar");
+nav.innerHTML = navbar();
+nav.style.backgroundColor = 'black';
+let locMenu = document.getElementById("location-menu");
+locMenu.innerHTML = locateDiv();
+navbarFunc();
+
 export {navbar, locateDiv, navbarFunc};
