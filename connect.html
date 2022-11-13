@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/login.css">
     <title>Connect With Us</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
 </head>
 <body>
+    <div id="navbar"></div>
+    <div id="location-menu"></div>
+    <div id="cart"></div>
+
     <div class="main-parent">         
         <div class="child">
     <div class="form-data">
@@ -19,7 +25,7 @@
             <div class="mobile-num">
                 <div>
                     <input class="enter-email" id="otp" type="number" placeholder="Enter Your OTP">
-                    <div><button onclick=otplogin() class="connect-btn">CONFIRM</button></div>
+                    <div><button id="connect-btn-id" class="connect-btn">CONFIRM</button></div>
                 </div>
             </div>
             <div class="social-media">
@@ -38,4 +44,4 @@
     </div>
 </body>
 </html>
-<script src="./scripts/connect.js"></script>
+<script type="module" src="./scripts/connect.js"></script>

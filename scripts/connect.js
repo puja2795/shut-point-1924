@@ -1,3 +1,20 @@
+
+import {navbar, locateDiv, navbarFunc, cartDiv, showCartItems} from "../component/navbar.js";
+
+
+let navbarDiv = document.getElementById("navbar");
+navbarDiv.innerHTML = navbar();
+navbarDiv.style.backgroundColor = 'black';
+document.getElementById("location-menu").innerHTML = locateDiv();
+document.getElementById("cart").innerHTML = cartDiv();
+navbarFunc();
+showCartItems();
+
+let connect_btn = document.getElementById("connect-btn-id");
+connect_btn.onclick = () =>{
+    otplogin();
+}
+
 let  otplogin =() =>{
     let otp = ""
     // console.log("login page")

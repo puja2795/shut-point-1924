@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="location-menu"></div>
+    <div id="cart"></div>
+
+    <div id="payment">
+        
+        <form>
+            <h1>Checkout</h1>
+            <label for="">Enter Your Name </label><br />
+            <input id="name" type="text" /><br />
+
+            <label for="">Enter Mobile Number </label><br />
+            <input id="mobile" type="number" /><br />
+
+            <label for="">Enter Email </label><br />
+            <input id="email" type="email" /><br />
+
+            <label for="">Enter Shipping Address </label><br />
+            <input id="address" type="text" /><br />
+
+            <label for="">Enter Your Card Number </label><br />
+            <input id="card" type="text" /><br />
+
+            <label for="">Enter CVV </label><br />
+            <input id="cvv" type="text" /><br />
+
+            <button id="place-order" type="submit"> Place Order </button>
+        </form>
+    </div>
+</body>
+<script type="module" src="./scripts/payment.js"></script>
+</html>
