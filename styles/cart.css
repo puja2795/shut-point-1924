@@ -1,5 +1,5 @@
-#busy{
-    background-color:rgb(41, 39, 39);
+ #busy{
+    background-color:rgb(57, 58, 59);
     color:white;
     align-items: center;
     font-size: 45px; 
@@ -7,12 +7,48 @@
 
 #busy>button{
     margin-left:650px;
-    font-size: 40px;
+    font-size: 20px;
     color:white;
-    background-color: black;
-    margin-top: 10px;
+    background-color: rgb(35, 37, 38);
+    /* margin-top: 10px; */
     margin-bottom: 20px;
-} 
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}  
+/* #busy{
+    /* background-color:rgb(41, 39, 39);
+    color:white;
+    align-items: center;
+    font-size: 45px; 
+   
+     justify-content: center; 
+      background-color: rgb(57,58,59);
+    
+    width: 100%;
+position:fixed;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px; 
+    margin-top: 10px;
+
+}
+#busy>button{
+    margin-left:650px;
+    font-size: 20px;
+    color:white;
+    
+    margin-top: 50px;
+    margin-bottom: 0px; 
+    padding: 10px 15px;
+     background-color: rgb(35, 37, 38); 
+    
+     border: 0px;
+    color: white;
+    
+    border-radius: 3px; 
+    
+}  */
 #carts>img{
     width:50%;
     height:20%;
