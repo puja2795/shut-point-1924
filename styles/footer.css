@@ -10,7 +10,7 @@ body{
     
 }
 
-#main-container{
+#main-footer-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,17 +25,17 @@ body{
     line-height: 22px;
 }
 
-#main-container>div:nth-child(1){
+#main-footer-container>div:nth-child(1){
     height: 100%;
     width: 30%;
     text-align: left;
 }
 
-#main-container>div:nth-child(1)>p{
+#main-footer-container>div:nth-child(1)>p{
     text-align: left;
 }
 
-#main-container>div:nth-child(1)>img{
+#main-footer-container>div:nth-child(1)>img{
     width: 50%;
 }
 
@@ -48,22 +48,22 @@ body{
     padding-bottom: 32px;
     text-align: left;
 }
-#main-container>div:nth-child(2){
+#main-footer-container>div:nth-child(2){
     height: 100%;
     width: 15%;
 }
 
-#main-container>div:nth-child(3){
+#main-footer-container>div:nth-child(3){
     height: 100%;
     width: 10%;
 }
 
-#main-container>div:nth-child(4){
+#main-footer-container>div:nth-child(4){
     height: 100%;
     width: 15%;
 }
 
-#main-container>div:nth-child(5){
+#main-footer-container>div:nth-child(5){
     height: 100%;
     width: 25%;
 }
