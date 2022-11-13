@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-let selectedtest=JSON.parse(localStorage.getItem("selected_item"))
-=======
 
->>>>>>> dcba9c756abbc7b753180251bc07cabaea053bde
+let selectedtest=JSON.parse(localStorage.getItem("selected_item"))
+
+
+
 let carts=document.getElementById("carts");
    
 let largeImg = document.createElement("img");
