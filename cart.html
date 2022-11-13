@@ -8,14 +8,30 @@
     <link rel="stylesheet" href="./styles/cart.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/optional-footer.css">
 </head>
 
 <body>
-
+    <div id="navbar"></div>
+    <div id="location-menu"></div>
+    <div id="cart"></div>
     <div id="busy">
         <button >Lab tests</button>
     </div>
-    <div id="carts"></div>
+    <div id="carts">
+        <div id="cart-image"></div>
+        <div class="item-detail">
+            <h3 id="item-title"></h3>
+            <div id="item-desc"></div>
+            <div id="add-div">
+                <b id="price"></b>
+                <button id="add-btn">Add</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer-div"></div>
+    <div id="optional-container"></div>
 </body>
 <script type="module" src="./scripts/cart.js"></script>
 </html>

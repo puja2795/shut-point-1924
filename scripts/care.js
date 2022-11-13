@@ -1,4 +1,5 @@
 import {navbar, locateDiv, navbarFunc, cartDiv, showCartItems} from "../component/navbar.js";
+import {footerDiv, optionalFooter} from "../component/footer.js";
 
 let navbarDiv = document.getElementById("navbar");
 navbarDiv.innerHTML = navbar();
@@ -7,6 +8,10 @@ document.getElementById("location-menu").innerHTML = locateDiv();
 document.getElementById("cart").innerHTML = cartDiv();
 navbarFunc();
 showCartItems();
+
+document.getElementById("footer-div").innerHTML = footerDiv();
+document.getElementById("optional-container").innerHTML = optionalFooter();
+
 function crousel(){
     let images=[
         "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/f061fddb-e946-4348-91e4-ffe9d69dd18a.png",
@@ -53,7 +58,7 @@ cate.forEach((el)=>{
    })
    
     let price=document.createElement("p");
-    price.innerText=el.price;
+    price.innerText= "₹" + el.price;
 
     card.append(productImg,price);
     main_container.append(card);
@@ -61,7 +66,6 @@ cate.forEach((el)=>{
 })
 }
 function addfun(el){
-   // console.log(el)
     localStorage.setItem("selected_item",JSON.stringify(el))
     window.location.href="cart.html"
     
