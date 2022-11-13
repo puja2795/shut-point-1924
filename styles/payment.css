@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+#payment{
+    width: 80%;
+}
+
+form {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 300px;
+    width: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 30px 30px;
+    border-radius: 10px;
+  }
+
+  form>h1{
+    text-align: center;
+  }
+  
+  label {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="number"] {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  resize: vertical;
+  height: 30px;
+}
+
+form > button{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+button[type="submit"] {
+    background-color: rgb(233, 96, 96);
+    color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  font-size: 20px;
+}
+

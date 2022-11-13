@@ -86,6 +86,9 @@ const navbarFunc = function() {
     document.getElementById("store-page").onclick = function(){
         window.location.href = "./index.html";
     }
+    document.getElementById("login-btn").onclick = function(){
+        window.location.href = "./login.html";
+    }
 }
 
 
@@ -108,7 +111,7 @@ const navbar = function() {
             </div>
         </div>
         <div><button class="btn-cls">GET APP</button></div>
-        <div><i class="fa-regular fa-user fa-lg" style="cursor: pointer;"></i></div>
+        <div id="login-btn"><i class="fa-regular fa-user fa-lg" style="cursor: pointer;"></i></div>
         <div id="cart-icon" style="cursor: pointer;"><i class="fa-solid fa-cart-shopping fa-lg"></i><b class="test-count cart-count"></b></div>
     </div>`
 }
@@ -154,6 +157,7 @@ const showCartItems = function() {
     let cartItems = JSON.parse(localStorage.getItem("cart-item")) || [];
     let total = 0;
     if(cartItems.length>0){
+        document.querySelector(".cart-sub-header>p").style.display='block';
         document.querySelector(".cart-sub-header>.test-count").innerText = cartItems.length;
         document.querySelector(".cart-count").innerText = cartItems.length;
         cartItems.forEach((el, index) => {
@@ -186,8 +190,12 @@ const showCartItems = function() {
         document.querySelector(".cart-sub-header>p").innerText = "Total: ₹" + total;
         let payBtn = document.getElementById("pay-now");
         payBtn.style.display = "block";
+        payBtn.addEventListener("click", () => {
+            window.location.href = "./payment.html"
+        })
     }
     else{
+        document.querySelector(".cart-sub-header>p").style.display='none';
         document.querySelector(".cart-sub-header>.test-count").innerText = 0;
         document.querySelector(".cart-count").innerText = null;
         cartBody.innerHTML = `
