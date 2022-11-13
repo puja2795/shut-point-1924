@@ -39,7 +39,6 @@ let addToCartBtn = document.createElement("button");
 addToCartBtn.innerText ="ADD";
 // addToCartBtn.addEventListener("click", () => {
 //     addToCartFunc(selectedTest);
-//     //console.log("dheeraj")
 
 // })
 document.getElementById("add-div").addEventListener("click", (event) => {

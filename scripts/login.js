@@ -1,3 +1,10 @@
+
+
+
+document.getElementById("login").addEventListener("click", () => {
+    login();
+})
+
 function login(){
     let x  = 0 ;
 let y = 9 ;

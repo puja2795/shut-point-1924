@@ -6,7 +6,7 @@ body{
 }
 .main-parent {
     margin: auto;
-    margin-top: 50px;
+    margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,15 +3,6 @@ body{
     padding: 0px;
     font:18px sans-serif;
 }
-#navbar{
-    width: 100%;
-    height: 60px;
-    margin: 0;
-    display: flex;
-    z-index: 10;
-    background-color: black;
-    position: relative;
-}
 
 #navigator{ 
     margin-top: 60px;

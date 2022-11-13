@@ -86,6 +86,9 @@ const navbarFunc = function() {
     document.getElementById("store-page").onclick = function(){
         window.location.href = "./index.html";
     }
+    document.getElementById("login-btn").onclick = function(){
+        window.location.href = "./login.html";
+    }
 }
 
 
@@ -108,7 +111,7 @@ const navbar = function() {
             </div>
         </div>
         <div><button class="btn-cls">GET APP</button></div>
-        <div><i class="fa-regular fa-user fa-lg" style="cursor: pointer;"></i></div>
+        <div id="login-btn"><i class="fa-regular fa-user fa-lg" style="cursor: pointer;"></i></div>
         <div id="cart-icon" style="cursor: pointer;"><i class="fa-solid fa-cart-shopping fa-lg"></i><b class="test-count cart-count"></b></div>
     </div>`
 }
