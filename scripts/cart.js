@@ -1,4 +1,3 @@
-
 let selectedtest=JSON.parse(localStorage.getItem("selected_item"))
 let carts=document.getElementById("carts");
    
