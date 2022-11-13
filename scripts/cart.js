@@ -38,11 +38,14 @@ price.innerText = selectedTest.price;
 
 let addToCartBtn = document.createElement("button");
 addToCartBtn.innerText ="ADD";
-addToCartBtn.addEventListener("click", () => {
+// addToCartBtn.addEventListener("click", () => {
+//     addToCartFunc(selectedTest);
+//     //console.log("dheeraj")
+
+// })
 document.getElementById("add-div").addEventListener("click", (event) => {
     event.preventDefault();
     addToCartFunc(selectedTest);
-})
 })
 let cartItems = JSON.parse(localStorage.getItem("cart-item")) || [];
 
