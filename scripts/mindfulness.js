@@ -3,6 +3,13 @@ import { navbar , locateDiv, navbarFunc } from "../component/navbar.js"
 document.getElementById("navbar").innerHTML = navbar();
 document.getElementById("location-menu").innerHTML = locateDiv();
 navbarFunc();
+import {footerDiv, optionalFooter} from "../component/footer.js";
+
+
+
+
+document.getElementById("footer-div").innerHTML = footerDiv();
+document.getElementById("optional-container").innerHTML = optionalFooter();
 
 const Library_data=[
     {
