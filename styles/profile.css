@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
 }
-#navbar{
-    border: 1px solid red;
-    height: 50px;
-    width: 100%;
-}
+
 .profile-parent{
     display: flex;
     height: auto;
