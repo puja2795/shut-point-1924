@@ -9,6 +9,58 @@ document.getElementById("location-menu").innerHTML = locateDiv();
 document.getElementById("cart").innerHTML = cartDiv();
 navbarFunc();
 showCartItems();
+let Therapies_data=[  // data for tharapy page
+    {
+        title: "Therapy",
+        desc: "Experts who help solve emotional problems ₹699",
+        duration: "50 Mins Session",
+        price: "₹ 699.00",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/9355d11a-f088-4f10-b9df-72ea3ecf8e0b.png"
+    },
+    {
+        title: "Couple Therapy",
+        desc: "Resolve emotional conflicts in relationships and marriage ₹1250",
+        duration: "50 Mins Session",
+        price: "₹ 1250",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/9ce1d9a2-d3c6-4a19-91bd-028d52f58c84.png"
+    },
+    {
+        title: "COVID Stress",
+        desc: "Seek expert help from our therapists for coping with isolation and COVID-related stress and worry ₹699",
+        duration: "50 Mins Session",
+        price: "₹ 699.00",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/5e9f8ee5-83dd-4dca-beca-61885323ce3c.png"
+    },
+    {
+        title: "Better Sleep  ",
+        desc: "Consult with experts to learn effective strategies for restful sleep and good sleep health ₹699",
+        duration: "50 Mins Session",
+        price: "₹ 699.00",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/84248218-f8c0-44d8-b2d6-be415b742b9a.png"
+    },
+    {
+        title: "Rise to Confidence",
+        desc: "Grow into a more confident and self-assured you by talking to our experts ₹699",
+        duration: "50 Mins Session",
+        price: "₹ 699.00",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/dcd1728e-d7dc-4952-b552-b1b1c97e9ac1.png"
+    },
+    {
+        title: "Thrive at work",
+        desc: "Make work fulfilling and meaningful with the help of our experts ₹699",
+        duration: "50 Mins Session",
+        price: "₹ 699.00",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/18a8d3b2-d262-4f78-908b-79a55a40ef68.png"
+    },
+    {
+        title: "Healthy Relationships",
+        desc: "Understand your relationship patterns and exploring healthy ways of connecting ₹699",
+        duration: "50 Mins Session",
+        price: "₹ 699.00",
+        image: "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/1a2d8f7e-2c24-4cbf-88be-e2cf266dfa23.png"
+    }
+]
+
 
 document.getElementById("footer-div").innerHTML = footerDiv();
 document.getElementById("optional-container").innerHTML = optionalFooter();
@@ -51,7 +103,11 @@ const get_data= async()=>{
     let res= await fetch("http://localhost:3000/therapies")
     let data= await res.json()
     console.log(data)
-    append_therapy(data)
+    if(data){
+        append_therapy(data)
+    }else{
+        append_therapy(Therapies_data)
+    }
 }
 get_data() // function invoke when page load
 
