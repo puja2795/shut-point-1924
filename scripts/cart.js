@@ -18,7 +18,7 @@ let price=document.createElement("p")
 price.innerText = selectedTest.price;
 
 let addToCartBtn = document.createElement("button");
-addToCartBtn.innerText = "ADD";
+addToCartBtn.innerText ="ADD";
 addToCartBtn.addEventListener("click", () => {
     addToCartFunc(selectedTest);
 })
