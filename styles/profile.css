@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    border: 1px solid red;
+    height: 50px;
+    width: 100%;
+}
+.profile-parent{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.side-nav{
+    width: 25%;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 6%) -1px 0px 15px 0px;
+}
+.side-nav-1 {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.side-nav-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+.side-nav-3 {
+    width: 80px;
+    border-radius: 50%;
+}
+.side-nav-4 .preview-component {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.side-nav-4 .preview-component .round-image {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    border: 0;
+}
+.side-nav-4 .preview-component .edit-button {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.side-nav-4 .preview-component input[type="file"] {
+    display: none;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    outline: none;
+}
+#view-profile{
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.side-nav-5 {
+    font-size: 18px;
+    padding: 1em;
+    cursor: pointer;
+    font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;
+    font-weight: 500;
+}
+.side-nav-5 label{
+    display: inline-block;
+    max-width: 100%;
+}
+.side-nav-6{
+    margin-top: -1px;
+    padding-left: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(255, 49, 109);
+    font-size: 12px;
+}
+.nav-side {
+    padding-left: 1.5em;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+.nav-side-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-side-4 {
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-right: 5px solid white;
+    font-size: 16px;
+    font-weight: unset;
+}
+.nav-side-5{
+    margin-right: 5px;
+    max-height: 22px;
+}
+.nav-side-5 img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.profile-details{
+    width: 75%;
+    background-color: rgb(250, 251, 252);
+    padding-left: 35px;
+}
+center {
+    display: block;
+    text-align: center;
+}
+.profile-detail-2 .profile-image-container {
+    border: none;
+    padding: 0px;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    margin-right: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+.profile-detail-2 .profile-image-container .profile-image {
+    width: 100%;
+    height: 100%;
+}
+.profile-detail-2 .profile-image-container .change-image-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+    height: 22%;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.98;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: rgb(9, 9, 9);
+    border: none;
+    border: 10px;
+}
+.profile-detail-2 .profile-header {
+    display: flex;
+    padding-top: 6%;
+    border: 10px;
+}
+.profile-detail-2 .profile-header{
+    display: flex;
+    padding-top: 6%;
+}
+.profile-detail-4{
+    margin: 0px;
+    font-size: 22px;
+    display: flex;
+    width: 80%;
+    margin-bottom: 2%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.profile-detail-4 > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 22px;
+}
+#form-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 52%;
+    display: flex;
+}
+#column-one{
+    width: 50%;
+    height: 75%;
+}
+#column-two{
+    width: 50%;
+    height: 75%;
+    gap: 10px;
+}
+.input-field-label{
+    margin-top: 35px;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+    background: transparent;
+    width: 100%;
+    border: 0px;
+    outline: none;
+}

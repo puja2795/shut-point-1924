@@ -16,59 +16,62 @@
     padding: 10px 15px;
     border-radius: 3px;
     cursor: pointer;
-}  
-/* #busy{
-    /* background-color:rgb(41, 39, 39);
-    color:white;
-    align-items: center;
-    font-size: 45px; 
-   
-     justify-content: center; 
-      background-color: rgb(57,58,59);
-    
+}
+
+.title {
     width: 100%;
-position:fixed;
-    justify-content: center;
-    gap: 30px;
-    padding: 10px; 
-    margin-top: 10px;
+}
 
+#cart-image {
+    width: 45%;
 }
-#busy>button{
-    margin-left:650px;
-    font-size: 20px;
-    color:white;
-    
-    margin-top: 50px;
-    margin-bottom: 0px; 
-    padding: 10px 15px;
-     background-color: rgb(35, 37, 38); 
-    
-     border: 0px;
-    color: white;
-    
-    border-radius: 3px; 
-    
-}  */
-#carts>img{
-    width:50%;
-    height:20%;
-    text-align: center;
 
+#cart-image>img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
 }
-#carts{
-    justify-content: center;
-    margin: 3%;
+
+.item-detail{
+    width: 45%;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-#carts>button{
+
+#add-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#item-title {
+    width: 100%;
+    margin-top: 0;
+}
+
+#item-desc {
+    width: 100%;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#add-btn {
     width:20%;
     height:37px;
     border-radius: 10px;
     cursor:pointer;
-
 }
-#carts>button:hover{
+
+#add-btn:hover{
     background-color: red;
     color: black;
-    cursor:pointer;
+}
+
+#carts{
+    display: flex;
+    margin: 3%;
+    gap: 5%;
 }
