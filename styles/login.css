@@ -1,6 +1,9 @@
 *, :after,:before {
     box-sizing: border-box;
 }
+body{
+    background-image: url(https://img.freepik.com/premium-photo/blurred-background-rows-black-dumbbells-rack-gym_42687-402.jpg?w=2000);
+}
 .main-parent {
     margin: auto;
     margin-bottom: 60px;

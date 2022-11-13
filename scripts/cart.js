@@ -2,6 +2,10 @@ import {navbar, locateDiv, navbarFunc, cartDiv, showCartItems} from "../componen
 import {footerDiv, optionalFooter} from "../component/footer.js";
 
 
+let selectedtest=JSON.parse(localStorage.getItem("selected_item"));
+
+
+let carts=document.getElementById("carts");
 
 let navbarDiv = document.getElementById("navbar");
 navbarDiv.innerHTML = navbar();
