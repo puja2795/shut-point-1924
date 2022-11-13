@@ -1,6 +1,6 @@
 const footerDiv = function() {
     return `
-    <div id="main-container">
+    <div id="main-footer-container">
     <div>
         <img src="./media/logo.png" alt="logo">
         <p>At FIT ME we make group workouts fun, daily food healthy & tasty, mental fitness easy with yoga & meditation, Medical & lifestyle care hassle-free.#BeBetterEveryDay</p>

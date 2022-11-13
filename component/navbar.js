@@ -157,6 +157,7 @@ const showCartItems = function() {
     let cartItems = JSON.parse(localStorage.getItem("cart-item")) || [];
     let total = 0;
     if(cartItems.length>0){
+        document.querySelector(".cart-sub-header>p").style.display='block';
         document.querySelector(".cart-sub-header>.test-count").innerText = cartItems.length;
         document.querySelector(".cart-count").innerText = cartItems.length;
         cartItems.forEach((el, index) => {
@@ -189,8 +190,12 @@ const showCartItems = function() {
         document.querySelector(".cart-sub-header>p").innerText = "Total: ₹" + total;
         let payBtn = document.getElementById("pay-now");
         payBtn.style.display = "block";
+        payBtn.addEventListener("click", () => {
+            window.location.href = "./payment.html"
+        })
     }
     else{
+        document.querySelector(".cart-sub-header>p").style.display='none';
         document.querySelector(".cart-sub-header>.test-count").innerText = 0;
         document.querySelector(".cart-count").innerText = null;
         cartBody.innerHTML = `
