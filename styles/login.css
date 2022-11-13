@@ -13,7 +13,11 @@ body{
 }
 .main-parent {
     margin: auto;
+<<<<<<< HEAD
     margin-top: 75px;
+=======
+    margin-bottom: 60px;
+>>>>>>> d8b11599cb65b60d56dbd6daeeaec5858156c9d0
     display: flex;
     align-items: center;
     justify-content: center;

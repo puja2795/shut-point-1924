@@ -28,6 +28,11 @@ body{
 #main-container>div:nth-child(1){
     height: 100%;
     width: 30%;
+    text-align: left;
+}
+
+#main-container>div:nth-child(1)>p{
+    text-align: left;
 }
 
 #main-container>div:nth-child(1)>img{
@@ -36,10 +41,12 @@ body{
 
 .paragraph-cls>p{
     padding-bottom: 15px;
+    text-align: left;
 }
 
 .paragraph-cls-2>p{
     padding-bottom: 32px;
+    text-align: left;
 }
 #main-container>div:nth-child(2){
     height: 100%;
