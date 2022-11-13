@@ -100,14 +100,18 @@ const slider=()=>{
 slider() // function invoke when page load
 
 const get_data= async()=>{
-    let res= await fetch("http://localhost:3000/therapies")
-    let data= await res.json()
-    console.log(data)
-    if(data){
+
+    try{
+        let res= await fetch("http://localhost:3000/therapies")
+        let data= await res.json()
+        // console.log(data)
         append_therapy(data)
-    }else{
-        append_therapy(Therapies_data)
     }
+    catch(err){
+        append_therapy(Therapies_data)
+        console.log(err)
+    }
+   
 }
 get_data() // function invoke when page load
 
