@@ -8,6 +8,7 @@
     width: 100%;
 }
 .profile-parent{
+    margin-top: 65px;
     display: flex;
     height: auto;
     width: auto;
