@@ -2,58 +2,58 @@
     "therapies": [
         {
             "title": "Therapy",
-            "desc": "Experts who help solve emotional problems ₹699",
+            "desc": "Experts who help solve emotional problems 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/9355d11a-f088-4f10-b9df-72ea3ecf8e0b.png"
         },
         {
             "title": "Couple Therapy",
-            "desc": "Resolve emotional conflicts in relationships and marriage ₹1250",
+            "desc": "Resolve emotional conflicts in relationships and marriage 1250",
             "duration": "50 Mins Session",
-            "price": "₹ 1250",
+            "price": " 1250",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/9ce1d9a2-d3c6-4a19-91bd-028d52f58c84.png"
         },
         {
             "title": "COVID Stress",
-            "desc": "Seek expert help from our therapists for coping with isolation and COVID-related stress and worry ₹699",
+            "desc": "Seek expert help from our therapists for coping with isolation and COVID-related stress and worry 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/5e9f8ee5-83dd-4dca-beca-61885323ce3c.png"
         },
         {
             "title": "Better Sleep  ",
-            "desc": "Consult with experts to learn effective strategies for restful sleep and good sleep health ₹699",
+            "desc": "Consult with experts to learn effective strategies for restful sleep and good sleep health 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/84248218-f8c0-44d8-b2d6-be415b742b9a.png"
         },
         {
             "title": "Rise to Confidence",
-            "desc": "Grow into a more confident and self-assured you by talking to our experts ₹699",
+            "desc": "Grow into a more confident and self-assured you by talking to our experts 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/dcd1728e-d7dc-4952-b552-b1b1c97e9ac1.png"
         },
         {
             "title": "Thrive at work",
-            "desc": "Make work fulfilling and meaningful with the help of our experts ₹699",
+            "desc": "Make work fulfilling and meaningful with the help of our experts 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/18a8d3b2-d262-4f78-908b-79a55a40ef68.png"
         },
         {
             "title": "Healthy Relationships",
-            "desc": "Understand your relationship patterns and exploring healthy ways of connecting ₹699",
+            "desc": "Understand your relationship patterns and exploring healthy ways of connecting 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/1a2d8f7e-2c24-4cbf-88be-e2cf266dfa23.png"
         },
         {
             "title": "Transform Your Thinking",
-            "desc": "Manage negative or anxious thoughts or overthinking ₹699",
+            "desc": "Manage negative or anxious thoughts or overthinking 699",
             "duration": "50 Mins Session",
-            "price": "₹ 699.00",
+            "price": " 699.00",
             "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_580,c_fit/dpr_2/image/vm/aebc57c2-ee58-41f7-a854-00fb5c5d55f9.png"
         }
     ],
@@ -329,7 +329,7 @@
             "id":1,
             "title":"Sr Citizen Advance Package - Male",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_mag.png",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_m_hero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
 
@@ -338,7 +338,7 @@
             "id":2,
             "title":"Sr Citizen Advance Package - Female",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_mag.png",
-            "price":"790₹",
+            "price":"790",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/diagnostics/screening-packs/sr_citizen_adv_f_hero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -346,7 +346,7 @@
             "id":3,
             "title":"Iron Screening (Ferritin,Iron,TIBC,PTS)",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/IronScreeningClp122020.png",
-            "price":"390₹",
+            "price":"390",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/IronScreeningHero122020.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -354,7 +354,7 @@
             "id":4,
             "title":"Women's health",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/WomensHealthScreening_Magazine.png",
-            "price":"1790₹",
+            "price":"1790",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/WomensHealthScreening_Hero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
 
@@ -363,7 +363,7 @@
             "id":5,
             "title":"PCOD Profile",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/PCODMagazineWeb.png",
-            "price":"1790₹",
+            "price":"1790",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/diagnostics/screening-packs/PCODHero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
 
@@ -372,7 +372,7 @@
             "id":6,
             "title":"Diabetes Screening (FBS,HBA1C)",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_clp.jpg",
-            "price":"2990₹",
+            "price":"2990",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Diabetes_Screening_hero.jpg",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -380,7 +380,7 @@
             "id":7,
             "title":"Lipid profile",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/LipidScreening_Magazine.png",
-            "price":"2990₹",
+            "price":"2990",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/DiagPackLipidHero070219.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -388,7 +388,7 @@
             "id":8,
             "title":"Immunity Screening",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/ImmunityCcreening_Magazine.png",
-            "price":"590₹",
+            "price":"590",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/ImmunityScreening_hero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -396,7 +396,7 @@
             "id":9,
             "title":"Energy Screening",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/CF01032_hero_2.png",
-            "price":"1490₹",
+            "price":"1490",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/CF01032_magazine_2.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
 
@@ -405,7 +405,7 @@
             "id":10,
             "title":"Pregnancy Test",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/PregnancyScreening_Magazine.png",
-            "price":"1990₹",
+            "price":"1990",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/PregnancyScreening_Hero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -413,7 +413,7 @@
             "id":11,
             "title":"Kidney Function Test (KFT)",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_clp.jpg",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Kidney_Screening_hero.jpg",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -421,7 +421,7 @@
             "id":12,
             "title":"Hair Fall Screening (Ferritin,TSH,VitB12,VitD)",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/HairFallScreeningClp122019.png",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/HairFallScreeningHero122019.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
 
@@ -430,7 +430,7 @@
             "id":13,
             "title":"Liver Function Test (LFT)",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_clp.jpg",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/mp/diag_pack_Liver_Screening_hero.jpg",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -438,7 +438,7 @@
             "id":14,
             "title":"Fever Panel",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/FeverPanel_Magazine.jpg",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/FeverPanel_Hero.jpg",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -446,7 +446,7 @@
             "id":15,
             "title":"Alcohol Risk Assessment",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Alcohol_magazine.png",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/Alcohol_Hero.jpg",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -455,7 +455,7 @@
             "id":16,
             "title":"Anemia Profile",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/diagnostics/screening-packs/Anemia_Magazine_Web_new.png",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/diagnostics/screening-packs/AnemiaHero.png",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         },
@@ -463,7 +463,7 @@
             "id":17,
             "title":"Obesity Risk Profile",
             "image_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/w_232,fl_progressive,f_auto,q_auto:eco/dpr_2/image/carefit/bundle/Obesity_Risk_Magazine.jpg",
-            "price":"890₹",
+            "price":"890",
             "largeimg_url":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,c_fit/dpr_2/image/carefit/bundle/Obesity_Risk_Hero.jpg",
             "description":"This test will help you understand the status of your key health indicators. It helps in early detection of common chronic & lifestyle health conditions related to thyroid, diabetes, liver, kidney, heart and blood."
         }
