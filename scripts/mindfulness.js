@@ -8,6 +8,10 @@ navbarDiv.style.backgroundColor = 'black';
 document.getElementById("location-menu").innerHTML = locateDiv();
 document.getElementById("cart").innerHTML = cartDiv();
 navbarFunc();
+
+
+
+
 showCartItems();
 
 document.getElementById("footer-div").innerHTML = footerDiv();
