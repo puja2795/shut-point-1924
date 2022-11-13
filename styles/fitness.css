@@ -1,6 +1,6 @@
-#navbar{
-    height: 50px;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
 }
 html {
     font-family: sans-serif;
@@ -19,7 +19,17 @@ body {
     box-sizing: border-box;
     position: relative;
 }
+#navbar{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    display: flex;
+    z-index: 10;
+    background-color: black;
+    position: relative;
+}
 .fitness-nav {
+    margin-top: 0px;
     width: 100%;
     height: 50px;
     background-color: rgb(57, 58, 59);
@@ -29,7 +39,7 @@ body {
     transform: translateY(0px);
     transition: transform 0.5s ease 0s;
     cursor: default;
-    position: fixed;
+    position: relative;
     transform: translateY(-0px);
     transition: transform .5s ease;
 }
@@ -75,11 +85,19 @@ body {
     background-color: transparent;
     text-decoration: none;
 }
+#image > img{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    height: auto;
+    width: 100%;
+}
 .tryit-free{
     position: absolute;
     left: 700px;
     right: 0px;
-    bottom: 390px;
+    top: 600px;
     min-height: 40px;
     opacity: 1;
     pointer-events: initial;
@@ -109,7 +127,7 @@ body {
     width: 1050px;
     height: 200px;
     position: absolute;
-    bottom: 120px;
+    top: 720px;
     left: 0px;
     right: 0px;
     display: flex;
@@ -134,4 +152,199 @@ body {
     margin-right: 3.5%;
     text-align: center;
     color: #fff;
+}
+#main-container{
+    height: 550px;
+    background-color: #14161b;
+}
+#h1tag{
+    color: #fff;
+    margin-left: 75px;
+    padding-top: 25px;
+}
+.pre-btn img{
+    width: 15px;
+    height: 30px;
+    border: none;
+}
+.nxt-btn img{
+    width: 15px;
+    height: 30px;
+    border: none;
+}
+.product{
+    background-color: #14161b;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 380px;
+}
+.product-container{
+    padding: 0 3vw;
+    display: flex;
+    overflow-x: auto;
+}
+.product-card {
+    height: 450px;
+    width: 550px;
+    margin-right:100px;
+    flex: 0 0 auto;
+    background-color: #44474b;
+}
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.product-thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 30%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+    background-color: #44474b;
+}
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+.card-btn:hover{
+    background-color: #44474b;
+    color: #fff;
+    font-size: 15px;
+}
+.product-info{
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+.product-brand{
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #fff;
+}
+.product-short-description{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 0px 0;
+    color: black;
+    color: #fff;
+}
+.pre-btn
+.nxt-btn{
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9;
+}
+.pre-btn{
+    left: 0;
+    width: 40px;
+    height: 50px;
+    margin-top: 200px;
+}
+.nxt-btn{
+    right: 0;
+    width: 40px;
+    height: 50px;
+    margin-top: 200px;
+}
+#trainer{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 65px;
+    background-color: #15171c;       
+}
+#center > h3{
+    color: rgb(141, 143, 145);
+    font-size: 25px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#center > h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.explore-slider{
+    background-color: #1c2734;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 40%;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    left: .5%;
+    z-index: 1;
+    margin-left: 7%;
+    background-color: #1c2734;
+}
+span:nth-of-type(2){
+    left: 84%;
+    text-align: right;
+}
+.slider-main{
+    background-color: #1c2734;
+    width: 80%;
+    height: 350px;
+    background: #f4f4f4;
+    margin: 10px auto;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+}
+.slider-main::-webkit-scrollbar{
+    visibility: hidden;
+}
+.slider-main > .item{
+    border: 1px solid green;
+    min-width: 250px;
+    height: 350px;
+    left: 0;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 10px 13px;
+    color: white;
+    background: purple;
+    transition: 0.5s;
+}
+.item > img{
+    width: 100%;
+    height: 100%;
 }
