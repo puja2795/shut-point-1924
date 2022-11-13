@@ -137,6 +137,7 @@ const cartDiv = function() {
     <div class="cart-sub-header">
         <b>Lab Tests</b>
         <div class="test-count"></div>
+        <p></p> 
     </div>
     <div class="cart-body">
         
@@ -151,6 +152,7 @@ const showCartItems = function() {
     let cartBody = document.getElementsByClassName("cart-body")[0];
     cartBody.innerHTML = null;
     let cartItems = JSON.parse(localStorage.getItem("cart-item")) || [];
+    let total = 0;
     if(cartItems.length>0){
         document.querySelector(".cart-sub-header>.test-count").innerText = cartItems.length;
         document.querySelector(".cart-count").innerText = cartItems.length;
@@ -162,11 +164,12 @@ const showCartItems = function() {
             let itemDiv2 = document.createElement("div");
             itemDiv2.classList.add("item-div");
             let nameEl = document.createElement("h4");
-            nameEl.innerText = el.title;
+            nameEl.innerText = el.title.substring(0,30);
             let priceRemoveDiv = document.createElement("div");
             priceRemoveDiv.classList.add("price-remove");
             let priceEl = document.createElement("p");
-            priceEl.innerText = el.price;
+            priceEl.innerText = "₹"+ el.price;
+            total = total + Number(el.price);
             let removeBtn = document.createElement("button");
             removeBtn.innerText = "Remove";
             removeBtn.addEventListener("click", () => {
@@ -180,10 +183,13 @@ const showCartItems = function() {
             
             cartBody.append(itemDiv);
         })
+        document.querySelector(".cart-sub-header>p").innerText = "Total: ₹" + total;
         let payBtn = document.getElementById("pay-now");
         payBtn.style.display = "block";
     }
     else{
+        document.querySelector(".cart-sub-header>.test-count").innerText = 0;
+        document.querySelector(".cart-count").innerText = null;
         cartBody.innerHTML = `
         <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_220,q_auto:eco,dpr_1,f_auto,fl_progressive//image/temp/cart/empty-cart-dark-theme.svg" alt="">
         <h4>Your cart is empty</h4>
