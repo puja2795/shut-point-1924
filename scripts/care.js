@@ -1,11 +1,12 @@
-import {navbar, locateDiv, navbarFunc} from "../component/navbar.js";
+import {navbar, locateDiv, navbarFunc, cartDiv, showCartItems} from "../component/navbar.js";
 
 let navbarDiv = document.getElementById("navbar");
 navbarDiv.innerHTML = navbar();
 navbarDiv.style.backgroundColor = 'black';
 document.getElementById("location-menu").innerHTML = locateDiv();
+document.getElementById("cart").innerHTML = cartDiv();
 navbarFunc();
-
+showCartItems();
 function crousel(){
     let images=[
         "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/f061fddb-e946-4348-91e4-ffe9d69dd18a.png",
