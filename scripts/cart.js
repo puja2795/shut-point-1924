@@ -2,6 +2,12 @@ import {navbar, locateDiv, navbarFunc, cartDiv, showCartItems} from "../componen
 import {footerDiv, optionalFooter} from "../component/footer.js";
 
 
+let selectedtest=JSON.parse(localStorage.getItem("selected_item"));
+
+
+let carts=document.getElementById("carts");
+   
+
 let navbarDiv = document.getElementById("navbar");
 navbarDiv.innerHTML = navbar();
 navbarDiv.style.backgroundColor = 'black';
@@ -24,11 +30,20 @@ document.getElementById("item-title").innerText = selectedTest.title;
 document.getElementById("item-desc").innerText = selectedTest.description;
 document.getElementById("price").innerText = "₹" +selectedTest.price;
 
+let des=document.createElement("p");
+des.innerText = selectedTest.description;
+
+let price=document.createElement("p")
+price.innerText = selectedTest.price;
+
+let addToCartBtn = document.createElement("button");
+addToCartBtn.innerText ="ADD";
+addToCartBtn.addEventListener("click", () => {
 document.getElementById("add-div").addEventListener("click", (event) => {
     event.preventDefault();
     addToCartFunc(selectedTest);
 })
-
+})
 let cartItems = JSON.parse(localStorage.getItem("cart-item")) || [];
 
 function addToCartFunc(selectedTest) {
