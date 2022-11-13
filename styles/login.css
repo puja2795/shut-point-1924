@@ -4,20 +4,8 @@
 body{
     background-image: url(https://img.freepik.com/premium-photo/blurred-background-rows-black-dumbbells-rack-gym_42687-402.jpg?w=2000);
 }
-#navbar{
-    border: 2px solid red;
-    height: 60px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 .main-parent {
     margin: auto;
-<<<<<<< HEAD
-    margin-top: 75px;
-=======
-    margin-bottom: 60px;
->>>>>>> d8b11599cb65b60d56dbd6daeeaec5858156c9d0
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    margin-top: 85px;
     background-color: rgb(0, 0, 0);
     box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
 }
@@ -40,7 +29,7 @@ body{
     height: 600px;
     width: 100%;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 .contact-data {
     margin-top: 60px;
